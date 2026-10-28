@@ -53,3 +53,5 @@ No license has been chosen yet. Until there is one, others may not reuse this wo
 ---
 Project layout generated from the CBIO7501 project template
 (<https://github.com/khan-lab/cbio7501-f26/tree/main/templates/cookiecutter-repro-project>).
+
+Practice project from the Reproducible and Open Science lessons.
