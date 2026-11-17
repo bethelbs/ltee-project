@@ -4,3 +4,5 @@
   once we can compare them (bethel wanted 5 to reduce false calls; alte  10, about the mean depth).
 
 
+
+- 2026-11-17: report minimum depth 2 (comparable with Data Carpentry); the conclusion holds at depths 2 to 15 (see the report, sensitivity figure).
