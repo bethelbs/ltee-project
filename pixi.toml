@@ -10,7 +10,7 @@ version = "0.1.0"
 
 [dependencies]
 python = "3.13.*"
-quarto = "1.9.38"
+quarto = "1.9.38.*"
 jupyterlab = ">=4"
 ipykernel = ">=7"
 pandas = ">=2"
