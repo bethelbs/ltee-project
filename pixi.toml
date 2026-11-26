@@ -53,7 +53,7 @@ compare-workflows = { cmd = "python scripts/compare_vcfs.py results/vcf results/
 pipeline = ["pipeline"]
 
 [target.osx-arm64.activation.env]
-QUARTO_DART_SASS = "/Users/bethelbahirusisay/tools/dart-sass/sass"
+QUARTO_DART_SASS = "$CONDA_PREFIX/bin/sass"
 
 [target.linux-64.dependencies]
 dart-sass = "*"
