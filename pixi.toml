@@ -10,7 +10,7 @@ version = "0.1.0"
 
 [dependencies]
 python = "3.13.*"
-quarto = ">=1.9"
+quarto = "1.9.38.*"
 jupyterlab = ">=4"
 ipykernel = ">=7"
 pandas = ">=2"
@@ -39,6 +39,7 @@ snakemake = ">=9.27.1,<10"
 graphviz = ">=14.1.2,<15"
 snakefmt = ">=2.1.0,<3"
 nextflow = ">=26.10.6,<27"
+dart-sass = "==1.97.3"
 
 [feature.pipeline.tasks]
 qc = { cmd = "mkdir -p results/qc/fastqc && fastqc --quiet --threads 2 --outdir results/qc/fastqc data/raw/fastq/*.fastq && multiqc --force -o results/qc/multiqc results/qc/fastqc", depends-on = ["download"], description = "FastQC on each FASTQ file, then a MultiQC summary" }
@@ -53,7 +54,7 @@ compare-workflows = { cmd = "python scripts/compare_vcfs.py results/vcf results/
 pipeline = ["pipeline"]
 
 [target.osx-arm64.activation.env]
-QUARTO_DART_SASS = "/Users/bethelbahirusisay/tools/dart-sass/sass"
+QUARTO_DART_SASS = "$CONDA_PREFIX/bin/sass"
 
 [target.linux-64.dependencies]
 dart-sass = "*"
