@@ -9,7 +9,7 @@ Built as the example project of the Reproducible and Open Science lessons.
 The analysis steps follow the Data Carpentry lesson *Wrangling
 Genomics* (CC BY 4.0).
 
-Author: Bethel Sisay (ORCID [0009-0004-9931-8699](https://orcid.org/0009-0004-9931-8699))
+Author: Bethel Sisay (ORCID [0009-0004-9931-8699](https://orcid.org/0009-0004-9931-8699)) DOI:10.5072/zenodo.648912
 
 ## Publication
 
