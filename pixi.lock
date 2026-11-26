@@ -2,18 +2,18 @@ version: 7
 platforms:
 - name: linux-64
   virtual-packages:
-  - __unix=0=0
+  - __unix=0
   - __linux=4.18
   - __glibc=2.28
   - __archspec=0=x86_64
 - name: osx-64
   virtual-packages:
-  - __unix=0=0
+  - __unix=0
   - __osx=13.0
   - __archspec=0=x86_64
 - name: osx-arm64
   virtual-packages:
-  - __unix=0=0
+  - __unix=0
   - __osx=13.0
   - __archspec=0=m1
 - name: win-64
@@ -41,7 +41,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/charset-normalizer-3.5.2-h1114479_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/contourpy-1.4.0-py313h2551ef2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/cyrus-sasl-2.1.28-hac629b4_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/dart-sass-1.106.1-hfc2019e_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/dart-sass-1.108.2-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/dbus-1.16.2-he8c428d_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/debugpy-1.8.22-py313h901f96d_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/deno-2.4.5-h6046fbb_0.conda
@@ -423,7 +423,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/cffi-2.1.1-py313h5487b31_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/charset-normalizer-3.5.2-hd77389f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/contourpy-1.4.0-py313hc8225fc_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/osx-64/dart-sass-1.106.1-h9b258c2_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-64/dart-sass-1.97.3-h8822bef_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/debugpy-1.8.22-py313h543f18f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/deno-2.4.5-h42a321a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/deno-dom-0.1.41-he96f4c9_1.conda
@@ -639,7 +639,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/cairo-1.18.6-h580cee5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/cffi-2.1.1-py313h056b358_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/contourpy-1.4.0-py313hcb059c8_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/dart-sass-1.106.0-h5ce3bf5_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/dart-sass-1.97.3-h820172f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/debugpy-1.8.22-py313h10a4758_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/deno-2.4.5-h248350f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/deno-dom-0.1.41-h99eee54_1.conda
@@ -852,7 +852,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/cffi-2.1.1-py313h5ea7bf4_3.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/charset-normalizer-3.5.2-h308a848_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/contourpy-1.4.0-py313h1a38498_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/win-64/dart-sass-1.106.1-h11686cb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/dart-sass-1.97.3-h11686cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/debugpy-1.8.22-py313h927ade5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/deno-2.4.5-h9135563_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/deno-dom-0.1.41-h1a6af48_1.conda
@@ -2885,14 +2885,14 @@ packages:
     - cyrus-sasl >=2.1.28,<3.0a0
   size: 210103
   timestamp: 1771943128249
-- conda: https://conda.anaconda.org/conda-forge/linux-64/dart-sass-1.106.1-hfc2019e_0.conda
-  sha256: ab380d287e2c2c558d6480071c269801a020493ce98d3067effed422dc1f5e8c
-  md5: 962c19ff294f5c72de17806c249f46c0
+- conda: https://conda.anaconda.org/conda-forge/linux-64/dart-sass-1.108.2-hfc2019e_0.conda
+  sha256: 34db288a37f497deb406c83650237821b3eb2b041f13fcda4778726b869542bd
+  md5: f9e15a85d5315ab67c4fe9f198a70275
   license: MIT
   license_family: MIT
   run_exports: {}
-  size: 3996711
-  timestamp: 1792623298676
+  size: 4015689
+  timestamp: 1794371381912
 - conda: https://conda.anaconda.org/conda-forge/linux-64/dart-sass-1.97.3-hfc2019e_0.conda
   sha256: 5644c3e433d3af57ba6b1954382a46ae1f2ad5ad3d50f9739803769c71ebe6d6
   md5: b48a2da3a40dc04b3e6d452a2b3ebbd9
@@ -8877,14 +8877,6 @@ packages:
   run_exports: {}
   size: 187231
   timestamp: 1791992019640
-- conda: https://conda.anaconda.org/conda-forge/osx-64/dart-sass-1.106.1-h9b258c2_0.conda
-  sha256: 42e9407f1ad922e8dfd368232eb431ad112cecc442ab5cf5a36ad2ab24ea6f6b
-  md5: c85f6d1ff987576b9a8ff5dac7d162d4
-  license: MIT
-  license_family: MIT
-  run_exports: {}
-  size: 3994695
-  timestamp: 1792623361755
 - conda: https://conda.anaconda.org/conda-forge/osx-64/dart-sass-1.97.3-h8822bef_0.conda
   sha256: 2ef1d38a59a340b1f10f6121ee3e8f33ac058d2f37b53e76851be41a2ec6311c
   md5: 5d007ab679fa7c6632e4497d15cb29a8
@@ -11241,14 +11233,6 @@ packages:
   run_exports: {}
   size: 183387
   timestamp: 1792014031633
-- conda: https://conda.anaconda.org/conda-forge/osx-arm64/dart-sass-1.106.0-h5ce3bf5_0.conda
-  sha256: 215e13323816e26980707beeb3398775ecdaf3a40aadfd6c41531b370d7744bb
-  md5: 95f5908e52154780bdbfbdbe351e88c2
-  license: MIT
-  license_family: MIT
-  run_exports: {}
-  size: 3800287
-  timestamp: 1792558521430
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/dart-sass-1.97.3-h820172f_0.conda
   sha256: c5285db8c7b9fab9c9319835a5ce73d71dec0604d94d9adf9dea01bc2c2223db
   md5: f90c3c0124565a8a00fb086913816a6b
@@ -13443,14 +13427,14 @@ packages:
   run_exports: {}
   size: 250763
   timestamp: 1789746813869
-- conda: https://conda.anaconda.org/conda-forge/win-64/dart-sass-1.106.1-h11686cb_0.conda
-  sha256: cfaf964812745aa4c51a22934af3987b648b1c7f21c417a11b1060367ccf5fca
-  md5: f01c0872801e285e83df9508b354010c
+- conda: https://conda.anaconda.org/conda-forge/win-64/dart-sass-1.97.3-h11686cb_0.conda
+  sha256: bc1fb32e97008b5bd11f37167d4ed1be0c7eb3dca5266e20d58ee8d6f049a520
+  md5: 193a2139593b9d5447ebae12a3f9b573
   license: MIT
   license_family: MIT
   run_exports: {}
-  size: 3986798
-  timestamp: 1792623302126
+  size: 4002297
+  timestamp: 1773477273824
 - conda: https://conda.anaconda.org/conda-forge/win-64/debugpy-1.8.22-py313h927ade5_0.conda
   sha256: 91765b58f35f9d0540bceb66b9c9444c34a8874cc9290429363c7aacb1fbd88d
   md5: 945cce39c07e237a910048880acf4db9

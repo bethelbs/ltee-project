@@ -10,13 +10,14 @@ version = "0.1.0"
 
 [dependencies]
 python = "3.13.*"
-quarto = "1.9.38.*"
+quarto = "==1.9.38"
 jupyterlab = ">=4"
 ipykernel = ">=7"
 pandas = ">=2"
 matplotlib = ">=3.9"
 papermill = ">=2.6"   # Quarto needs it for report parameters (-P)
 pyyaml = ">=6.0.3,<7"
+dart-sass = "==1.97.3"
 
 [tasks]
 check = { cmd = "python --version && quarto --version", description = "Check that the tools work" }
